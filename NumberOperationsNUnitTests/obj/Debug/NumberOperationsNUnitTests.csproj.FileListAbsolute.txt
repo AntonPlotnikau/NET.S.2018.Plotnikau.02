@@ -1,0 +1,11 @@
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperationsNUnitTests.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperationsNUnitTests.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperations.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperations.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.xml
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.csprojResolveAssemblyReference.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.csproj.CoreCompileInputs.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.pdb

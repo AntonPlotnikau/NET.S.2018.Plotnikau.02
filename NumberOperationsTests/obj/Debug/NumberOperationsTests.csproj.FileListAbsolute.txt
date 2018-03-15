@@ -1,0 +1,30 @@
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.pdb
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperations.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperations.pdb
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.csprojResolveAssemblyReference.cache
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.csproj.CoreCompileInputs.cache
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperations.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperations.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.csprojResolveAssemblyReference.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.csproj.CoreCompileInputs.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.pdb

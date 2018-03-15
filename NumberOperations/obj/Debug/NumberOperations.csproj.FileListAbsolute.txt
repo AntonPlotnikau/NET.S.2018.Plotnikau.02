@@ -1,0 +1,12 @@
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.pdb
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csprojResolveAssemblyReference.cache
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csproj.CoreCompileInputs.cache
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.dll
+E:\training .Net\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.pdb
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csprojResolveAssemblyReference.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csproj.CoreCompileInputs.cache
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.dll
+E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.pdb
