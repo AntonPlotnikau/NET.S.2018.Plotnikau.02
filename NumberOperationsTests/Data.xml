@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <Actual>3 2 1 41 28</Actual>
+    <Filter>1</Filter>
+    <ExpectedResult>1 41</ExpectedResult>
+  </TestCase>
+  <TestCase>
+    <Actual>19 4 52 34 40 3 -4</Actual>
+    <Filter>4</Filter>
+    <ExpectedResult>4 34 40 -4</ExpectedResult>
+  </TestCase>
+  <TestCase>
+    <Actual>55 10 12 3 0 6</Actual>
+    <Filter>0</Filter>
+    <ExpectedResult>10 0</ExpectedResult>
+  </TestCase>
+</TestCases>

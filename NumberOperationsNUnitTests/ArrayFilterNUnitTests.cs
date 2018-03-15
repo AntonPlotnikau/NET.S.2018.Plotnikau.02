@@ -1,16 +1,17 @@
-﻿using NUnit.Framework;
+﻿using System;
 using NumberOperations;
+using NUnit.Framework;
 
-namespace NumberOperationsNUnitTests
+namespace NumberOperationsNUnit.Tests
 {
     /// <summary>
     /// Tests ArrayFilter using NUnit framework
     /// </summary>
     [TestFixture]
-    public class ArrayFilterNUnitTest
+    public class ArrayFilterNUnitTests
     {
         /// <summary>
-        /// Data driven test for FilterDigit method.
+        /// test for FilterDigit method.
         /// </summary>
         /// <param name="source">source array for filtering</param>
         /// <param name="expected">expected array after filtering</param>
@@ -25,5 +26,12 @@ namespace NumberOperationsNUnitTests
 
             Assert.AreEqual(expected, actual);
         }
+
+        /// <summary>
+        /// Tests generation of ArgumentNullException
+        /// </summary>
+        [Test]
+        public void FilterDigit_WithNull_ThrowArgumentNullException()
+            => Assert.Throws<ArgumentNullException>(() => ArrayFilter.FilterDigit(null, 3));
     }
 }

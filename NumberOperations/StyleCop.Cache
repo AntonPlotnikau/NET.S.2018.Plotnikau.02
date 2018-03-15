@@ -6,6 +6,9 @@
   <project key="1582911232">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <project key="606841260">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="ArrayFilter.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2018.03.07 20:33:43.765</styleCop>

@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOperations", "NumberOperations\NumberOperations.csproj", "{E6C6F371-22A7-4E1E-818B-AFE73047415A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOperationsTests", "NumberOperationsTests\NumberOperationsTests.csproj", "{D3CC5BCA-040D-4280-B5A3-EC4049691EF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOperations.Tests", "NumberOperationsTests\NumberOperations.Tests.csproj", "{D3CC5BCA-040D-4280-B5A3-EC4049691EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOperationsNUnitTests", "NumberOperationsNUnitTests\NumberOperationsNUnitTests.csproj", "{BB223696-C884-417A-9F62-03A8DD18BBFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOperationsNUnit.Tests", "NumberOperationsNUnitTests\NumberOperationsNUnit.Tests.csproj", "{BB223696-C884-417A-9F62-03A8DD18BBFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

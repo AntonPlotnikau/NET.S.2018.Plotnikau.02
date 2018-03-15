@@ -9,3 +9,14 @@ E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberO
 E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.csproj.CoreCompileInputs.cache
 E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.dll
 E:\training\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperationsNUnitTests.dll
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperationsNUnitTests.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperations.dll
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.dll
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\NumberOperations.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\bin\Debug\nunit.framework.xml
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.csproj.CoreCompileInputs.cache
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.dll
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsNUnitTests\obj\Debug\NumberOperationsNUnitTests.pdb
