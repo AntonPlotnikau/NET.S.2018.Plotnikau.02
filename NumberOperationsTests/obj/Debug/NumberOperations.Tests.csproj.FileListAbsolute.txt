@@ -1,7 +1,6 @@
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Data.xml
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\NumberOperationsTests.pdb
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
@@ -13,3 +12,7 @@ E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\Microsoft.Visua
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperations.Tests.csproj.CoreCompileInputs.cache
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperationsTests.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\obj\Debug\NumberOperations.Tests.csprojResolveAssemblyReference.cache
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\ArrayFilterTestsData.xml
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\InsertNumberTestsData.xml
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperationsTests\bin\Debug\InsertNumberException.xml

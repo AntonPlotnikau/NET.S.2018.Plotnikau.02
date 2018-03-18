@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestCases>
+  <TestCase>
+    <numberSource>15</numberSource>
+    <numberln>15</numberln>
+    <firstBit>8</firstBit>
+    <secondBit>3</secondBit>
+  </TestCase>
+  <TestCase>
+    <numberSource>8</numberSource>
+    <numberln>15</numberln>
+    <firstBit>-3</firstBit>
+    <secondBit>31</secondBit>
+  </TestCase>
+  <TestCase>
+    <numberSource>8</numberSource>
+    <numberln>15</numberln>
+    <firstBit>2</firstBit>
+    <secondBit>34</secondBit>
+  </TestCase>
+</TestCases>

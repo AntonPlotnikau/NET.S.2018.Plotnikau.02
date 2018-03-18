@@ -17,9 +17,14 @@ namespace NumberOperations
         /// <returns>Filtered array.</returns>
         public static int[] FilterDigit(int[] array, int filter)
         {
-            if (array == null) 
+            if (array == null)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentNullException(nameof(array));
+            }
+
+            if (filter < 0 || filter > 9)
+            {
+                throw new ArgumentOutOfRangeException(nameof(filter));
             }
 
             var list = new List<int>();

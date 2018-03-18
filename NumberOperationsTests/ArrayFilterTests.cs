@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NumberOperations;
 
 namespace NumberOperations.Tests
 {
@@ -21,7 +20,7 @@ namespace NumberOperations.Tests
         [TestMethod]
         [DataSource(
             "Microsoft.VisualStudio.TestTools.DataSource.XML",
-            "|DataDirectory|\\Data.xml",
+            "|DataDirectory|\\ArrayFilterTestsData.xml",
             "TestCase",
             DataAccessMethod.Sequential)]
         public void FilterDigit_UnfilteredArray_FilteredArray()
@@ -40,7 +39,16 @@ namespace NumberOperations.Tests
         /// </summary>
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
-        public void IsNullTest()
+        public void IsNullArrayTest()
             => ArrayFilter.FilterDigit(null, 3);
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void IsDigitOutOfRangeTest()
+        {
+            int[] array = { 1, 2, 3 };
+
+            ArrayFilter.FilterDigit(array, 10);
+        }
     }
 }
