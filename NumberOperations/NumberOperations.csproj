@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ArrayFilter.cs" />
     <Compile Include="MathNumberOperations.cs" />
+    <Compile Include="NOD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

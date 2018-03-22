@@ -12,7 +12,7 @@ E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.
 E:\training\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.pdb
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\bin\Debug\NumberOperations.pdb
-E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csprojResolveAssemblyReference.cache
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csproj.CoreCompileInputs.cache
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.dll
 E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.pdb
+E:\Task2\NET.S.2018.Plotnikau.02\NumberOperations\obj\Debug\NumberOperations.csprojResolveAssemblyReference.cache
