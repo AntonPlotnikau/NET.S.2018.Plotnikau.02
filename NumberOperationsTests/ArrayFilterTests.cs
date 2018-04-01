@@ -29,7 +29,7 @@ namespace NumberOperations.Tests
             int[] expected = Array.ConvertAll(Convert.ToString(TestContext.DataRow["ExpectedResult"]).Split(' '), int.Parse);
             var filter = Convert.ToInt32(TestContext.DataRow["Filter"]);
 
-            int[] actual = ArrayFilter.FilterDigit(source, filter);
+            int[] actual = ArrayFilter.FilterDigit(source, new DigitFilter(filter));
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -40,7 +40,7 @@ namespace NumberOperations.Tests
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
         public void IsNullArrayTest()
-            => ArrayFilter.FilterDigit(null, 3);
+            => ArrayFilter.FilterDigit(null, new DigitFilter(3));
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
@@ -48,7 +48,7 @@ namespace NumberOperations.Tests
         {
             int[] array = { 1, 2, 3 };
 
-            ArrayFilter.FilterDigit(array, 10);
+            ArrayFilter.FilterDigit(array, new DigitFilter(10));
         }
     }
 }

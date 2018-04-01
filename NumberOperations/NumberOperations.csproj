@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayFilter.cs" />
+    <Compile Include="DigitFilter.cs" />
+    <Compile Include="IFilter.cs" />
     <Compile Include="MathNumberOperations.cs" />
     <Compile Include="NOD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

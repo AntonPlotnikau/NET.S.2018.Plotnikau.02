@@ -7,6 +7,8 @@ namespace NumberOperations
     /// </summary>
     public static class MathNumberOperations
     {
+        private const int INT32_SIZE = 32;
+
         /// <summary>
         /// Finds the NTH root.
         /// </summary>
@@ -62,25 +64,38 @@ namespace NumberOperations
                 throw new ArgumentOutOfRangeException(nameof(firstBit));
             }
 
-            if ((firstBit >= 0 && firstBit <= 31) == false) 
+            if ((firstBit >= 0 && firstBit < INT32_SIZE) == false) 
             {
                 throw new ArgumentOutOfRangeException(nameof(firstBit));
             }
 
-            if ((secondBit >= 0 && secondBit <= 31) == false) 
+            if ((secondBit >= 0 && secondBit < INT32_SIZE) == false) 
             {
                 throw new ArgumentOutOfRangeException(nameof(secondBit));
             }
 
-            int[] numberSourceArray = ConvertToBinaryArray(numberSource);
-            int[] numberlnArray = ConvertToBinaryArray(numberln);
+            int result = numberSource;
 
-            for (int i = firstBit, j = 0; i <= secondBit; i++, j++) 
+            for (int i = firstBit; i <= secondBit; i++) 
             {
-                numberSourceArray[i] = numberlnArray[j];
+                int sourceMask = 1 << i;
+                int insertMask = 1 << (i - firstBit);
+
+                if ((numberln & insertMask) != 0)
+                {
+                        result |= sourceMask;
+                }
+                else
+                {
+                    if ((numberSource & sourceMask) != 0)
+                    {
+                        result ^= sourceMask;
+                    }
+
+                }
             }
 
-            return ConvertFromBinaryArray(numberSourceArray);
+            return result;
         }
 
         /// <summary>
