@@ -43,39 +43,15 @@ namespace NumberOperations
         /// <param name="value3">Third value.</param>
         /// <returns>NOD of this values</returns>
         public static int EuclidAlgorithm(int value1, int value2, int value3)
-        {
-            int divider = EuclidAlgorithm(value1, value2);
-
-            return EuclidAlgorithm(divider, value3);
-        }
+            => FindNOD(EuclidAlgorithm, value1, value2, value3);
 
         /// <summary>
         /// Euclid's Algorithm of NOD calculating.
         /// </summary>
         /// <param name="values">The values.</param>
         /// <returns>NOD of few values</returns>
-        /// <exception cref="ArgumentNullException">values is null reference</exception>
-        /// <exception cref="ArgumentOutOfRangeException">values is null reference</exception>
         public static int EuclidAlgorithm(params int[] values)
-        {
-            if (values == null)
-            {
-                throw new ArgumentNullException(nameof(values));
-            }
-
-            if (values.Length < 2)
-            {
-                throw new ArgumentOutOfRangeException(nameof(values));
-            }
-
-            int divider = values[0];
-            for (int i = 1; i < values.Length; i++) 
-            {
-                divider = EuclidAlgorithm(divider, values[i]);
-            }
-
-            return divider;
-        }
+            => FindNOD(EuclidAlgorithm, values);
 
         #endregion
 
@@ -137,21 +113,37 @@ namespace NumberOperations
         /// <param name="value3">Third value.</param>
         /// <returns>NOD of this values</returns>
         public static int SteinAlgorithm(int value1, int value2, int value3)
-        {
-            int divider = SteinAlgorithm(value1, value2);
-
-            return SteinAlgorithm(divider, value3);
-        }
+            => FindNOD(SteinAlgorithm, value1, value2, value3);
 
         /// <summary>
         /// Stein's Algorithm of NOD calculating.
         /// </summary>
         /// <param name="values">The values.</param>
         /// <returns>NOD of few values</returns>
-        /// <exception cref="ArgumentNullException">values is null reference</exception>
-        /// <exception cref="ArgumentOutOfRangeException">values is null reference</exception>
         public static int SteinAlgorithm(params int[] values)
+            => FindNOD(SteinAlgorithm, values);
+        #endregion
+
+        #region Private Methods
+        /// <summary>
+        /// Finds the nod.
+        /// </summary>
+        /// <param name="nod">The nod.</param>
+        /// <param name="values">The values.</param>
+        /// <returns>nod of few values</returns>
+        /// <exception cref="ArgumentNullException">
+        /// nod is null
+        /// or
+        /// values is null
+        /// </exception>
+        /// <exception cref="ArgumentOutOfRangeException">values is less than two</exception>
+        private static int FindNOD(Func<int, int, int> nod, params int[] values)
         {
+            if (nod == null)
+            {
+                throw new ArgumentNullException(nameof(nod));
+            }
+
             if (values == null)
             {
                 throw new ArgumentNullException(nameof(values));
@@ -162,13 +154,32 @@ namespace NumberOperations
                 throw new ArgumentOutOfRangeException(nameof(values));
             }
 
-            int divider = values[0];
+            int result = values[0];
             for (int i = 1; i < values.Length; i++)
             {
-                divider = SteinAlgorithm(divider, values[i]);
+                result = nod(result, values[i]);
             }
 
-            return divider;
+            return result;
+        }
+
+        /// <summary>
+        /// Finds the nod.
+        /// </summary>
+        /// <param name="nod">The nod.</param>
+        /// <param name="value1">The value1.</param>
+        /// <param name="value2">The value2.</param>
+        /// <param name="value3">The value3.</param>
+        /// <returns>nod of three values</returns>
+        /// <exception cref="ArgumentNullException">nod is null</exception>
+        private static int FindNOD(Func<int, int, int> nod, int value1, int value2, int value3)
+        {
+            if (nod == null)
+            {
+                throw new ArgumentNullException(nameof(nod));
+            }
+
+            return nod(nod(value1, value2), value3);
         }
         #endregion
     }
