@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using NumberOperations;
 using NUnit.Framework;
 
@@ -22,9 +23,13 @@ namespace NumberOperationsNUnit.Tests
         [TestCase(new int[] { 94, -3, 29, 51, 9, -19, 4 }, new int[] { 94, 29, 9, -19 }, 9)]
         public void FilterDigit_UnfilteredArray_FilteredArray(int[] source, int[] expected, int filter)
         {
-            int[] actual = ArrayFilter.FilterDigit(source, new DigitFilter(filter));
+            IEnumerable<int> actual = ArrayFilter.Filter(source, new DigitFilter(filter));
 
-            Assert.AreEqual(expected, actual);
+            int i = -1;
+            foreach (int item in actual)
+            {
+                Assert.AreEqual(expected[++i], item);
+            }
         }
 
         /// <summary>
@@ -32,6 +37,6 @@ namespace NumberOperationsNUnit.Tests
         /// </summary>
         [Test]
         public void FilterDigit_WithNull_ThrowArgumentNullException()
-            => Assert.Throws<ArgumentNullException>(() => ArrayFilter.FilterDigit(null, new DigitFilter(3)));
+            => Assert.Throws<ArgumentNullException>(() => ArrayFilter.Filter(null, new DigitFilter(3)));
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace NumberOperations.Tests
@@ -29,9 +30,13 @@ namespace NumberOperations.Tests
             int[] expected = Array.ConvertAll(Convert.ToString(TestContext.DataRow["ExpectedResult"]).Split(' '), int.Parse);
             var filter = Convert.ToInt32(TestContext.DataRow["Filter"]);
 
-            int[] actual = ArrayFilter.FilterDigit(source, new DigitFilter(filter));
+            IEnumerable<int> actual = ArrayFilter.Filter(source, new DigitFilter(filter));
 
-            CollectionAssert.AreEqual(expected, actual);
+            int i = -1;
+            foreach (int item in actual) 
+            {
+                Assert.AreEqual(expected[++i], item);
+            }
         }
 
         /// <summary>
@@ -40,7 +45,7 @@ namespace NumberOperations.Tests
         [TestMethod]
         [ExpectedException(typeof(ArgumentNullException))]
         public void IsNullArrayTest()
-            => ArrayFilter.FilterDigit(null, new DigitFilter(3));
+            => ArrayFilter.Filter(null, new DigitFilter(3));
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
@@ -48,7 +53,7 @@ namespace NumberOperations.Tests
         {
             int[] array = { 1, 2, 3 };
 
-            ArrayFilter.FilterDigit(array, new DigitFilter(10));
+            ArrayFilter.Filter(array, new DigitFilter(10));
         }
     }
 }

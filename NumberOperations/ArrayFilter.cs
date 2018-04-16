@@ -10,19 +10,22 @@ namespace NumberOperations
     public static class ArrayFilter
     {
         /// <summary>
-        /// This method returns the numeric array that contains only numbers with a given digit.
+        /// Filter for collections
         /// </summary>
-        /// <param name="array">The source array for filtering.</param>
-        /// <param name="filter">Filtering criteria.</param>
-        /// <returns>
-        /// Filtered array.
-        /// </returns>
-        /// <exception cref="ArgumentNullException">array is null or filter is null</exception>
-        public static int[] FilterDigit(int[] array, IFilter<int> filter)
+        /// <typeparam name="T">type of collections data</typeparam>
+        /// <param name="collection">The collection.</param>
+        /// <param name="filter">The filter.</param>
+        /// <returns>filtered collection</returns>
+        /// <exception cref="ArgumentNullException">
+        /// collection is null
+        /// or
+        /// filter is null
+        /// </exception>
+        public static IEnumerable<T> Filter<T>(this IEnumerable<T> collection, IFilter<T> filter)
         {
-            if (array == null)
+            if (collection == null)
             {
-                throw new ArgumentNullException(nameof(array));
+                throw new ArgumentNullException(nameof(collection));
             }
 
             if (filter == null)
@@ -30,16 +33,40 @@ namespace NumberOperations
                 throw new ArgumentNullException(nameof(filter));
             }
 
-            var list = new List<int>();
-            for (int i = 0; i < array.Length; i++) 
+            return Filter<T>(collection, filter.IsMatch);
+        }
+
+        /// <summary>
+        /// Filter for collections
+        /// </summary>
+        /// <typeparam name="T">type of collections data</typeparam>
+        /// <param name="collection">The collection.</param>
+        /// <param name="filter">The filter.</param>
+        /// <returns>filtered collection</returns>
+        /// <exception cref="ArgumentNullException">
+        /// collection is null
+        /// or
+        /// filter is null
+        /// </exception>
+        public static IEnumerable<T> Filter<T>(this IEnumerable<T> collection, Func<T, bool> filter)
+        {
+            if (collection == null)
             {
-                if (filter.IsMatch(array[i])) 
-                {
-                    list.Add(array[i]);
-                }
+                throw new ArgumentNullException(nameof(collection));
             }
 
-            return list.ToArray();
+            if (filter == null)
+            {
+                throw new ArgumentNullException(nameof(filter));
+            }
+
+            foreach (T item in collection)
+            {
+                if (filter(item))
+                {
+                    yield return item;
+                }
+            }
         }
     }
 }
